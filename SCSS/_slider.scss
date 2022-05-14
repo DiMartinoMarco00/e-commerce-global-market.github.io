@@ -1,0 +1,21 @@
+.slider
+{
+    width: 85%;
+    margin-left: 15%;
+    padding: 0 10px;
+
+    img 
+    {
+        height: 85vh;
+    }
+}
+
+.carousel
+{
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+}
+
+.carousel-indicators
+{
+    z-index: 1 !important;
+}

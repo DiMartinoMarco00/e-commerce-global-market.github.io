@@ -1,0 +1,64 @@
+.product-top img 
+{
+    width: 100%;
+    height: 250px;
+}
+
+.overlay-right
+{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+
+    .fas, .far
+    {
+        cursor: pointer;
+        background-color: #fff;
+        color: #000;
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+        padding: 7px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .btn-secondary
+    {
+        background-color: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
+.product-top:hover .overlay-right
+{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+
+.product-bottom 
+{
+    .fas, .far 
+    {
+        color: orange;
+        font-size: 10px;
+    }
+
+    h3 
+    {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    h5 
+    {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+}

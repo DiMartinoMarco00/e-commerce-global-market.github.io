@@ -1,0 +1,28 @@
+.title
+{
+    background-color: orange;
+    color: #fff;
+    width: 200px;
+    padding: 4px 10px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    display: flex;
+}
+
+.title-box h2 
+{
+    font-size: 24px;
+}
+
+.title-box::after 
+{
+    content: '';
+    border-top: 40px solid orange;
+    border-right: 50px solid transparent;
+    position: absolute;
+    display: flex;
+    margin-top: -41px;
+    margin-left: 175px;
+}

@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    background-color: #f1f3f4;
+    font-family: sans-serif;
+}
+
+@import 'mixin';
+@import 'nav-bar';
+@import 'header';
+@import 'slider';
+@import 'featured-categories';
+@import 'title';
+@import 'product';
+@import 'new-products';
+@import 'website-features';
+@import 'footer';
+@import 'single-product';
+@import 'media-query-index';
+@import 'media-query-product';

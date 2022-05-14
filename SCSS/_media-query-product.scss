@@ -1,0 +1,15 @@
+@media only screen and (max-width: 575px)
+{
+    #product-slider img
+    {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 576px)
+{
+    #product-slider img
+    {
+        height: 40vh;
+    }
+}
